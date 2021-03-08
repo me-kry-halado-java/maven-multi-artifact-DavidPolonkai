@@ -1,6 +1,6 @@
-package hu.meiit.haladojava.restrictions;
+package hu.meiit.haladojava.calculator.logic.restrictions;
 
-import hu.meiit.haladojava.exceptions.InvalidInputException;
+import hu.meiit.haladojava.calculator.logic.exceptions.InvalidInputException;
 
 public enum Operation {
     ADDITION('+'),

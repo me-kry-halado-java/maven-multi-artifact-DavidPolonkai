@@ -1,8 +1,8 @@
 package hu.meiit.haladojava.calculator.console;
 
 import hu.meiit.haladojava.logic.Expression;
-import hu.meiit.haladojava.view.Parser;
-import hu.meiit.haladojava.view.View;
+import hu.meiit.haladojava.calculator.console.view.Parser;
+import hu.meiit.haladojava.calculator.console.view.View;
 
 public class App {
     private static final String ERROR_RESPONSE = "-";

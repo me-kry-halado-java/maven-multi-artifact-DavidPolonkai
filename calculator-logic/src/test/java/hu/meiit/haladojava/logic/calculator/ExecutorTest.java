@@ -1,8 +1,8 @@
-package hu.meiit.haladojava.logic;
+package hu.meiit.haladojava.logic.calculator;
 
-import hu.meiit.haladojava.exceptions.DivisionByZeroException;
+import hu.meiit.haladojava.calculator.logic.exceptions.DivisionByZeroException;
+import hu.meiit.haladojava.calculator.logic.Executor;
 import org.junit.*;
-import org.junit.rules.ExpectedException;
 
 public class ExecutorTest {
 

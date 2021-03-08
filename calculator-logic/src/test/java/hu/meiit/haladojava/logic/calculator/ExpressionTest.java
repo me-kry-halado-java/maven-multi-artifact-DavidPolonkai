@@ -1,5 +1,6 @@
-package hu.meiit.haladojava.logic;
+package hu.meiit.haladojava.logic.calculator;
 
+import hu.meiit.haladojava.calculator.logic.Expression;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

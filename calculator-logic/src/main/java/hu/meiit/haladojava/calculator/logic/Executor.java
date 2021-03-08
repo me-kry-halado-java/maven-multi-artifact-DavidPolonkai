@@ -1,6 +1,6 @@
-package hu.meiit.haladojava.logic;
+package hu.meiit.haladojava.calculator.logic;
 
-import hu.meiit.haladojava.exceptions.DivisionByZeroException;
+import hu.meiit.haladojava.calculator.logic.exceptions.DivisionByZeroException;
 
 public class Executor {
     private static final int ZERO = 0;

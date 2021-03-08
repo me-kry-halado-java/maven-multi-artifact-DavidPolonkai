@@ -1,4 +1,4 @@
-package hu.meiit.haladojava.view;
+package hu.meiit.haladojava.calculator.console.view;
 
 import java.util.Scanner;
 

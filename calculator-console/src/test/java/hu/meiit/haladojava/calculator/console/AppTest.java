@@ -1,4 +1,4 @@
-package hu.meiit.haladojava;
+package hu.meiit.haladojava.calculator.console;
 
 import static org.junit.Assert.assertTrue;
 

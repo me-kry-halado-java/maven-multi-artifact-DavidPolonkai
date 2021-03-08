@@ -1,9 +1,9 @@
-package hu.meiit.haladojava.logic;
+package hu.meiit.haladojava.calculator.logic;
 
-import hu.meiit.haladojava.exceptions.DivisionByZeroException;
-import hu.meiit.haladojava.exceptions.InvalidInputException;
-import hu.meiit.haladojava.exceptions.InvalidOperatorException;
-import hu.meiit.haladojava.restrictions.Operation;
+import hu.meiit.haladojava.calculator.logic.exceptions.DivisionByZeroException;
+import hu.meiit.haladojava.calculator.logic.exceptions.InvalidInputException;
+import hu.meiit.haladojava.calculator.logic.exceptions.InvalidOperatorException;
+import hu.meiit.haladojava.calculator.logic.restrictions.Operation;
 
 public class Expression {
     private static final Executor EXECUTOR = new Executor();
