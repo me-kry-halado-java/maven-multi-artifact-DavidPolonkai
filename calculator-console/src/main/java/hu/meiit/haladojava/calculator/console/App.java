@@ -1,6 +1,6 @@
 package hu.meiit.haladojava.calculator.console;
 
-import hu.meiit.haladojava.logic.Expression;
+import hu.meiit.haladojava.calculator.logic.*;
 import hu.meiit.haladojava.calculator.console.view.Parser;
 import hu.meiit.haladojava.calculator.console.view.View;
 
@@ -18,7 +18,6 @@ public class App {
             result = parser.outPutFormatter(expression.calculateExpression());
         } catch (Exception e) { } //Empty on purpose
         view.writeToConsole(result);
-
 
     }
 

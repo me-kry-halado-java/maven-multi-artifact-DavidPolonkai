@@ -1,8 +1,8 @@
 package hu.meiit.haladojava.calculator.console.view;
 
-import hu.meiit.haladojava.exceptions.InvalidInputException;
-import hu.meiit.haladojava.logic.Expression;
-import hu.meiit.haladojava.restrictions.Operation;
+import hu.meiit.haladojava.calculator.logic.exceptions.InvalidInputException;
+import hu.meiit.haladojava.calculator.logic.Expression;
+import hu.meiit.haladojava.calculator.logic.restrictions.Operation;
 import java.text.DecimalFormat;
 
 public class Parser {
